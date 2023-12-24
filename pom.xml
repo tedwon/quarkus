@@ -36,9 +36,7 @@
         </license>
     </licenses>
 
-    <scm child.scm.connection.inherit.append.path="false"
-         child.scm.developerConnection.inherit.append.path="false"
-         child.scm.url.inherit.append.path="false">
+    <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
         <url>https://github.com/quarkusio/quarkus</url>
         <connection>scm:git:git@github.com:quarkusio/quarkus.git</connection>
         <developerConnection>scm:git:git@github.com:quarkusio/quarkus.git</developerConnection>
@@ -74,7 +72,7 @@
         <proto-google-common-protos.version>2.28.0</proto-google-common-protos.version>
 
         <!-- TestNG version: we don't enforce it in the BOM as it is mostly used in the MP TCKs and we need to use the version from the TCKs -->
-        <testng.version>7.4.0</testng.version>
+        <testng.version>7.5.1</testng.version>
     </properties>
 
     <modules>

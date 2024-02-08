@@ -26,9 +26,7 @@
         </license>
     </licenses>
 
-    <scm child.scm.connection.inherit.append.path="false"
-         child.scm.developerConnection.inherit.append.path="false"
-         child.scm.url.inherit.append.path="false">
+    <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
         <url>https://github.com/quarkusio/quarkus</url>
         <connection>scm:git:git@github.com:quarkusio/quarkus.git</connection>
         <developerConnection>scm:git:git@github.com:quarkusio/quarkus.git</developerConnection>
@@ -69,7 +67,7 @@
         <yasson.version>3.0.3</yasson.version>
         <jakarta.json.bind-api.version>3.0.0</jakarta.json.bind-api.version>
         <awaitility.version>4.2.0</awaitility.version>
-        <smallrye-mutiny-vertx-core.version>3.7.2</smallrye-mutiny-vertx-core.version>
+        <smallrye-mutiny-vertx-core.version>3.9.0</smallrye-mutiny-vertx-core.version>
         <reactive-streams.version>1.0.4</reactive-streams.version>
         <mutiny-zero.version>1.0.0</mutiny-zero.version>
 

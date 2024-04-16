@@ -26,9 +26,7 @@
         </license>
     </licenses>
 
-    <scm child.scm.connection.inherit.append.path="false"
-         child.scm.developerConnection.inherit.append.path="false"
-         child.scm.url.inherit.append.path="false">
+    <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
         <url>https://github.com/quarkusio/quarkus</url>
         <connection>scm:git:git@github.com:quarkusio/quarkus.git</connection>
         <developerConnection>scm:git:git@github.com:quarkusio/quarkus.git</developerConnection>
@@ -58,7 +56,7 @@
         <!-- TCK versions -->
         <version.arquillian>1.7.0.Final</version.arquillian>
         <version.atinject-tck>2.0.1</version.atinject-tck>
-        <version.cdi-tck>4.0.12</version.cdi-tck>
+        <version.cdi-tck>4.1.0</version.cdi-tck>
         <version.junit4>4.13.2</version.junit4>
         <!-- Maven plugin versions -->
         <version.compiler.plugin>3.11.0</version.compiler.plugin>

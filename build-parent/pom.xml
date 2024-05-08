@@ -20,7 +20,7 @@
 
         <!-- These properties are needed in order for them to be resolvable by the generated projects -->
         <compiler-plugin.version>3.11.0</compiler-plugin.version>
-        <kotlin.version>1.9.21</kotlin.version>
+        <kotlin.version>1.9.24</kotlin.version>
         <dokka.version>1.9.10</dokka.version>
         <scala.version>2.13.12</scala.version>
         <scala-maven-plugin.version>4.8.1</scala-maven-plugin.version>
@@ -120,7 +120,7 @@
         <artemis.version>2.31.2</artemis.version>
 
         <!-- Code Coverage Properties-->
-        <jacoco.agent.argLine></jacoco.agent.argLine>
+        <jacoco.agent.argLine/>
 
         <asciidoctor-maven-plugin.version>2.0.0</asciidoctor-maven-plugin.version>
         <docker-maven-plugin.version>0.43.4</docker-maven-plugin.version>
@@ -160,7 +160,7 @@
 
         <enforce-test-deps-scope.skip>${enforcer.skip}</enforce-test-deps-scope.skip>
 
-        <surefire.argLine.additional></surefire.argLine.additional>
+        <surefire.argLine.additional/>
         <failsafe.argLine.additional>${surefire.argLine.additional}</failsafe.argLine.additional>
         <os-maven-plugin.version>1.7.0</os-maven-plugin.version>
 
@@ -1187,7 +1187,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1206,7 +1206,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1225,7 +1225,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1244,7 +1244,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -1261,7 +1261,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore></ignore>
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                     </pluginExecutions>
@@ -1435,7 +1435,7 @@
             </activation>
             <properties>
                 <!-- Podman compatibility. Currently, mac file systems based on Plan 9 does not support SELinux labeling z and Z should not be used. When they transition to use virtiofsd, it should support SELinux labeling, and then we can use it for better container separation on the Mac.-->
-                <volume.access.modifier></volume.access.modifier>
+                <volume.access.modifier/>
 
                 <!-- See https://stackoverflow.com/questions/65456814/docker-apple-silicon-m1-preview-mysql-no-matching-manifest-for-linux-arm64-v8
                 and https://www.emmanuelgautier.com/blog/mysql-docker-arm-m1

@@ -36,9 +36,7 @@
         </license>
     </licenses>
 
-    <scm child.scm.connection.inherit.append.path="false"
-         child.scm.developerConnection.inherit.append.path="false"
-         child.scm.url.inherit.append.path="false">
+    <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
         <url>https://github.com/quarkusio/quarkus</url>
         <connection>scm:git:git@github.com:quarkusio/quarkus.git</connection>
         <developerConnection>scm:git:git@github.com:quarkusio/quarkus.git</developerConnection>
@@ -70,7 +68,7 @@
         <grpc.version>1.59.1</grpc.version> <!-- when updating, verify if com.google.auth should not be updated too -->
         <grpc-jprotoc.version>1.2.1</grpc-jprotoc.version>
         <protoc.version>3.25.0</protoc.version>
-        <protobuf-java.version>${protoc.version}</protobuf-java.version>
+        <protobuf-java.version>3.25.5</protobuf-java.version>
         <proto-google-common-protos.version>2.28.0</proto-google-common-protos.version>
 
         <!-- TestNG version: we don't enforce it in the BOM as it is mostly used in the MP TCKs and we need to use the version from the TCKs -->

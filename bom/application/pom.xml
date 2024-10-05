@@ -226,7 +226,7 @@
         <sshd-common.version>2.10.0</sshd-common.version>
         <mime4j.version>0.8.9</mime4j.version>
         <mutiny-zero.version>1.0.0</mutiny-zero.version>
-        <pulsar-client.version>3.0.0</pulsar-client.version>
+        <pulsar-client.version>3.0.7</pulsar-client.version>
         <async-http-client.version>2.12.3</async-http-client.version>
         <!-- Dev UI -->
         <importmap.version>1.0.10</importmap.version>
